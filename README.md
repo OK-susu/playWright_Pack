@@ -21,7 +21,7 @@ Node을 활용해 playWright
 
 # ErrorCode 종류
 | ErrorCode | Msg | note |
-| --- | --- |
+| --- | --- | --- |
 | 8000F100 | Not Valid Json Format | parameter로 넘어온 값이 json 형식이 아닌경우 |
 | 8000F200 | parameter Null | parameter 빈값 |
 | 8000FFFF | UnKnown Error | 그 외 Except|
