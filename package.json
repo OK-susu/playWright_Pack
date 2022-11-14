@@ -1,0 +1,26 @@
+{
+  "name": "PlayWrightPack",
+  "version": "1.0.0",
+  "description": "codegen delivery apps",
+  "main": "app.js",
+  "bin": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg --targets=node16-win-x86 app.js",
+    "nexe": "nexe app.js -t win-x86-12.9.1 -o PlayWrightPack.exe"
+  },
+  "keywords": [
+    "LIJ"
+  ],
+  "pkg": {
+    "target": [
+      "node16-win"
+    ]
+  },
+  "author": "LIJ",
+  "license": "MIT",
+  "dependencies": {
+    "adm-zip": "^0.5.9",
+    "playwright": "^1.24.2"
+  }
+}
