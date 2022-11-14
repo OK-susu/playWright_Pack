@@ -5,11 +5,11 @@ Scraping using a single exe file
 Node을 활용한 playWright 실행파일으로 각 타깃페이지의 데이터를 스크랩해오는 파일을 실행
 
 # Folder & File
-File_js - 타깃페이지에서 데이터를 스크랩하는 파일 폴더
-node_modules - playWright 구성 폴더
-PlayWrightPack.exe - 단일 실행 파일
-parameter 값 - base64로 Encode된 값으로 사용 ex) PlayWrightPack.exe eyJGaWxlTmFtZSI6IkdvbGQiLCAiam9iTmFtZSI6IkdvbGRQcmljZUFnZSJ9
-chromium.exe - 사용자 pc에 chromium-1005 자동설치
+File_js - 타깃페이지에서 데이터를 스크랩하는 파일 폴더<br/>
+node_modules - playWright 구성 폴더<br/>
+PlayWrightPack.exe - 단일 실행 파일<br/>
+parameter 값 - base64로 Encode된 값으로 사용 ex) PlayWrightPack.exe eyJGaWxlTmFtZSI6IkdvbGQiLCAiam9iTmFtZSI6IkdvbGRQcmljZUFnZSJ9<br/>
+chromium.exe - 사용자 pc에 chromium-1005 자동설치<br/>
 
 # input 구조 (json obJect) 
 | key | Type | note |
