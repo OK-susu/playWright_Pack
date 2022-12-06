@@ -9,6 +9,7 @@ File_js - 타깃페이지에서 데이터를 스크랩하는 파일 폴더<br/>
 node_modules - playWright 구성 폴더<br/>
 PlayWrightPack.exe - 단일 실행 파일<br/>
 chromium.exe - 사용자 pc에 chromium-1005 자동설치<br/>
+installer.iss - 사용자pc에 chromium 설치를 위한 설치소스 파일<br/>
 
 # input 구조 (json obJect) 
 | key | Type | note |
